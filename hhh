@@ -7,7 +7,7 @@
     <script>
         // This function will show a popup message when called
         function showPopup() {
-            alert('Hello, this is your popup message!');
+            alert('You are hacked');
         }
 
         // Call the function when the page loads
