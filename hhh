@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Message Example</title>
+    <script>
+        // This function will show a popup message when called
+        function showPopup() {
+            alert('Hello, this is your popup message!');
+        }
+
+        // Call the function when the page loads
+        window.onload = function() {
+            showPopup();
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome to the Page</h1>
+    <p>The popup message will appear when the page is loaded.</p>
+</body>
+</html>
